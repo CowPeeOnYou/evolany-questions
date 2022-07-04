@@ -1,4 +1,4 @@
-package Questions;
+package Question1and2;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -31,10 +31,6 @@ public class App {
         SortedArray arr = new SortedArray(new int[]{4, 2, 1, 3, 4, 6, 7});
         System.out.println(arr);
 
-
-        // Question 3 Generate a file
-        GenerateFile newFile = new GenerateFile("sample.txt");
-        newFile.generate(1024 * 1024);
 
     }
 }

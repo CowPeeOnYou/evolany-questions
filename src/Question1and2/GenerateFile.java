@@ -1,4 +1,4 @@
-package Questions;
+package Question1and2;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
