@@ -10,7 +10,7 @@
     <script type="text/javascript">
       // size = sequenced hex number
       // fileName = name of file to be downloaded
-      function generate_random_data(fileName, size) {
+      function generateRandomData(fileName, size) {
         // check for incorrect or null input
         if (size == null || size < 0 || size.toString().trim().length === 0)
           return;
@@ -36,7 +36,8 @@
       }
     </script>
     <a href="#" id="link" download="">Download</a>
-    <button onclick="generate_random_data('sample.txt','f4240')">
+    <!-- 1 GB file in hex number -->
+    <button onclick="generateRandomData('sample.txt','f4240')">
       click me
     </button>
   </body>

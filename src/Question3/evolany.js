@@ -1,6 +1,6 @@
 // size = sequenced hex number
 // fileName = name of file to be downloaded
-function generate_random_data(fileName, size) {
+function generateRandomData(fileName, size) {
   // check for incorrect or null input
   if (size == null || size < 0 || size.toString().trim().length === 0) return;
   let newSize = parseInt(size, 16);
@@ -23,3 +23,4 @@ function generate_random_data(fileName, size) {
     link.download = fileName;
   }
 }
+generateRandomData('sample.txt','f4240')
