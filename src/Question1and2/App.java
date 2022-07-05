@@ -1,12 +1,11 @@
 package Question1and2;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class App {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
 
         // Question 1 Permutations
         Permutations permutations = new Permutations();
@@ -18,7 +17,6 @@ public class App {
         input.add(5);
         // size should be n!
         System.out.println(permutations.solve(input).size());
-        ;
         System.out.println(permutations.getOutput());
 
         //Question 2 SortedArray

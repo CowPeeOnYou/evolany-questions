@@ -14,6 +14,8 @@ public class SortedArray {
     }
 
     public int[] sorted() {
+        // empty input
+        if (array.length == 0) return array;
         quicksortHelper(this.array, 0, this.array.length - 1);
         return this.array;
     }
@@ -58,6 +60,7 @@ public class SortedArray {
 
     public int[] reversed() {
         // reverse list using two pointers
+        if (reversedArray.length == 0) return reversedArray;
         int leftIndex = 0;
         int rightIndex = reversedArray.length -1;
         while (leftIndex<=rightIndex){
